@@ -4,7 +4,7 @@
 ---
 
 ## 🚀 Project Overview  
-This project is a fully‑responsive, multi‑page website built as the final assignment for the Web Technologies class. It serves as both a portfolio and product‑showcase, integrating HTML5, CSS, JavaScript, and deployment practices.
+This project serves as both a portfolio and product‑showcase, integrating HTML5, CSS, JavaScript, and deployment practices.
 
 ---
 
