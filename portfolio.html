@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse portfolio of web development, mobile apps, and design projects">
+    <title>Portfolio - Elizabeth Waithereru</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">EW</a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="reveal-text">Portfolio</h1>
+                <p class="page-subtitle reveal-text">A selection of recent projects and case studies</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-grid-section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Modern shopping experience with seamless checkout and inventory management</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Fitness Tracking App</h3>
+                                <p>Mobile Development</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Fitness Tracking App</h3>
+                            <p>iOS app helping users achieve their health and fitness goals</p>
+                            <div class="portfolio-tags">
+                                <span>Swift</span>
+                                <span>HealthKit</span>
+                                <span>CoreData</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Brand Identity System</h3>
+                                <p>Branding & Design</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Brand Identity System</h3>
+                            <p>Complete visual identity for innovative tech startup</p>
+                            <div class="portfolio-tags">
+                                <span>Figma</span>
+                                <span>Illustrator</span>
+                                <span>Brand Strategy</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Restaurant Booking System</h3>
+                                <p>Web Application</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Restaurant Booking System</h3>
+                            <p>Real-time table reservation platform with admin dashboard</p>
+                            <div class="portfolio-tags">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Dashboard UI Kit</h3>
+                                <p>UI Design</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Dashboard UI Kit</h3>
+                            <p>Comprehensive design system for SaaS applications</p>
+                            <div class="portfolio-tags">
+                                <span>Figma</span>
+                                <span>Design System</span>
+                                <span>Components</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="mobile">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Travel Planning App</h3>
+                                <p>Mobile App</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Travel Planning App</h3>
+                            <p>Cross-platform app for discovering and planning adventures</p>
+                            <div class="portfolio-tags">
+                                <span>React Native</span>
+                                <span>Maps API</span>
+                                <span>Redux</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Portfolio Website</h3>
+                                <p>Web Design</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Portfolio Website</h3>
+                            <p>Elegant portfolio site for professional photographer</p>
+                            <div class="portfolio-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>GSAP</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Coffee Shop Rebrand</h3>
+                                <p>Branding</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Coffee Shop Rebrand</h3>
+                            <p>Complete brand refresh for local coffee chain</p>
+                            <div class="portfolio-tags">
+                                <span>Brand Design</span>
+                                <span>Packaging</span>
+                                <span>Marketing</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image" style="background: linear-gradient(135deg, #ff6e7f 0%, #bfe9ff 100%);"></div>
+                            <div class="portfolio-overlay">
+                                <h3>Mobile Banking UI</h3>
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Mobile Banking UI</h3>
+                            <p>Intuitive banking interface with focus on security and ease</p>
+                            <div class="portfolio-tags">
+                                <span>Adobe XD</span>
+                                <span>Prototyping</span>
+                                <span>User Testing</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Have a Project in Mind?</h2>
+                <p>Let's create something amazing together</p>
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Elizabeth Waithereru</h4>
+                    <p>Creative Developer & Designer specializing in crafting exceptional digital experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Waitherero-coder" aria-label="GitHub">GitHub</a>
+                        <a href="https://www.linkedin.com/in/elizabeth-kalondu-4441642a1/" aria-label="LinkedIn">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elizabeth Waithereru. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

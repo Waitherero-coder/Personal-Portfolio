@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website showcasing creative development and design services",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build successful - static site ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "web-development"
+  ],
+  "author": "Alex Carter",
+  "license": "MIT"
+}
