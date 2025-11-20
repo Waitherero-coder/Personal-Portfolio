@@ -1,4 +1,4 @@
-# Multipage Website – Final Project (Web Development)  
+# Personal Portfolio  
 **Author:** Elizabeth Waithereru • [GitHub](https://github.com/Waitherero-coder)  
 
 ---
